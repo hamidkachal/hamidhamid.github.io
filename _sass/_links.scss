@@ -1,0 +1,24 @@
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $link_hover-color;
+        text-decoration: underline;
+    }
+}
+
+article a, .news a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+		color: $link_hover-color;
+        text-decoration: underline;
+    }
+}
+
+.social a {
+    color: $white;
+    &:hover { color: $link-hover-color; }
+}

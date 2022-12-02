@@ -1,0 +1,148 @@
+.statute p {
+    font-size: 1em;
+}
+
+.statute-header {
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.statute-title {
+    color: $theme-color;
+    font-family: $heading-font; 
+    font-size: $h1;
+    font-style: normal;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.statute-header h1 {
+	font-family: $heading-font; 
+	color: $theme-color;
+	font-size: $h1;
+	line-height: 1.3;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.statute-header h2 {
+    font-family: $heading-font; 
+	color: $theme-color;
+    font-size: $h2;
+	line-height: 1.3;
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+}
+
+.statute-header h3 {
+    font-family: $body-font; 
+	color: $text-color;
+    font-size: $h3;
+	line-height: 1.3;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.statute-header h4 {
+	font-family: $body-font; 
+	color: $text-color;
+	font-size: $h3;
+    font-style: normal;
+	font-weight: $normal-weight;
+	line-height: 1.3;
+	margin-top: .5rem;
+	margin-bottom: 0;
+}
+
+.statute-header h5 {
+	font-family: $body-font; 
+    color: $text-color;
+    font-size: $h5;
+    font-style: normal;
+	font-weight: $normal-weight;
+    line-height: 1.3;
+    margin-top: 0.5rem;
+	margin-bottom: 0;
+}
+
+.statute-header h6 {
+	font-family: $body-font; 
+    font-size: $h6;
+    color: $text-color;
+	font-style: italic;
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.statute h3, h4, h5 {
+	margin-bottom: 1rem;
+}
+
+.statute h1 {
+	font-size: $h2;
+}
+
+.statute h2 {
+	font-size: $h3;
+}
+
+.statute h3 {
+	font-size: $h4;
+}
+
+.statute h4 {
+	font-size: $h5;
+}
+
+.statute blockquote {
+    border: none;
+}
+
+.statute blockquote, 
+blockquote p {
+    font-size: 1rem;
+    line-height: $line-height;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+.statute-meta {
+    color: $grey;
+    font-size: $small-size;
+    margin-bottom: 0px;
+}
+
+.statute-link {
+    display: block;
+    font-size: 32px;
+}
+
+.illustration {
+    padding-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    width: 100%;
+}
+
+@media only screen
+and (max-device-width:576px){
+    .statute-title {
+        font-size: $h1;
+    }
+    .statute-header h1 {
+        font-size: $h2;
+    }
+    .statute-header h2 {
+        font-size: $h3;
+    }
+    .statute-header h3 {
+        font-size: $h4;
+    }
+    .statute-header h4 {
+        font-size: $h5;
+    }
+}

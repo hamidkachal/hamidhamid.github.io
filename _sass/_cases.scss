@@ -1,0 +1,176 @@
+.case p {
+    font-size: 1em;
+}
+
+.case-header {
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.case-footer {
+	border-top: 1px solid $dark-grey;
+	margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.case-footer p {
+	border: none;
+	font-size: .8em;
+	font-style: italic;
+}
+
+.case-title {
+    color: $theme-color;
+    font-family: $heading-font; 
+    font-size: $post-title;
+    font-style: normal;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.case-header h1 {
+	font-family: $heading-font; 
+	color: $theme-color;
+	font-size: $post-title;
+	line-height: 1.3;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.case-header h2 {
+    font-family: $heading-font; 
+	color: $theme-color;
+    font-size: $post-title;
+	line-height: 1.3;
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+}
+
+.case-header h3 {
+    font-family: $body-font; 
+	color: $text-color;
+    font-size: $h3;
+	line-height: 1.3;
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+.case-header h4 {
+	font-family: $body-font; 
+	color: $text-color;
+	font-size: $h3;
+    font-style: normal;
+	font-weight: $normal-weight;
+	line-height: 1.3;
+	margin-top: .5rem;
+	margin-bottom: 0;
+}
+
+.case-header h5 {
+	font-family: $body-font; 
+    color: $text-color;
+    font-size: $h5;
+    font-style: normal;
+	font-weight: $normal-weight;
+    line-height: 1.3;
+    margin-top: 0.5rem;
+	margin-bottom: 0;
+}
+
+.case-header h6 {
+	font-family: $body-font; 
+    font-size: $h6;
+    color: $text-color;
+	font-style: italic;
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.case h3, h4, h5 {
+	margin-bottom: 1rem;
+}
+
+.case h1 {
+	font-size: $h2;
+	font-family: $body-font; 
+	font-weight: bold;
+    margin-top: 2rem;
+}
+
+.case h2 {
+	font-size: $h3;
+	font-family: $body-font; 
+	font-weight: bold;
+	font-style: normal;
+}
+
+.case h3 {
+	font-size: $h4;
+	font-family: $body-font; 
+	font-weight: normal;
+	font-style: italic;
+}
+
+.case h4 {
+	font-size: $larger-size;
+	font-family: $body-font; 
+	font-weight: bold;
+	font-style: normal;
+}
+
+.case blockquote {
+    border: none;
+}
+
+.case blockquote, 
+blockquote p {
+    font-size: $blockquote-size;
+    line-height: $blockquote-line-height;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.case sup {
+	font_family: $sans-font;
+	font-size: $small-size;
+}
+
+.case-meta {
+    color: $grey;
+    font-size: $small-size;
+    margin-bottom: 0px;
+}
+
+.case-link {
+    display: block;
+    font-size: 32px;
+}
+
+.illustration {
+    padding-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    width: 100%;
+}
+
+@media only screen
+and (max-device-width:576px){
+    .case-title {
+        font-size: $h1;
+    }
+    .case-header h1 {
+        font-size: $h2;
+    }
+    .case-header h2 {
+        font-size: $h3;
+    }
+    .case-header h3 {
+        font-size: $h4;
+    }
+    .case-header h4 {
+        font-size: $h5;
+    }
+}

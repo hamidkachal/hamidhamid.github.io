@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+    
+{% include vita-header.html %}
+
+<div class="page-content">
+
+<div class="wrapper">
+<div class="post">
+    
+ <article class="post-content {{page.title}} clearfix">
+    
+<div class="vita">
+
+<!-- vita head -->
+
+<header class="vita-header clearfix">
+
+<div class="vita-contact">
+  <div class="row">
+    <div class="column vita-left">
+		<p class="vita-contact">{{ page.affiliation }}</p>
+		<p class="vita-contact">{{ page.address1 }}</p>
+		<p class="vita-contact">{{ page.address2 }}</p>
+	</div>
+    <div class="column vita-right">
+		<p class="vita-contact">{{ page.phone }} &nbsp; <i class="fas fa-phone"></i></p>
+		<p class="vita-contact"><a href="{{ page.email }}">{{ page.email }}</a> &nbsp; <i class="fa fa-envelope"></i></p>
+		<p class="vita-contact"><a href="https://www.emfink.net/ElonLaw">{{ page.web }}</a> &nbsp; <i class="fas fa-globe"></i></p>
+	</div>
+  </div>
+</div>
+
+</header>
+
+
+<div class="vita-author">
+<h1 class="vita-author">{{ page.author }}</h1>
+</div> 
+
+<!-- cv body -->
+
+{{ content }}
+
+</div> 
+
+</article>
+
+</div>
+</div>
+
+
+{% include footer.html %}
+
+{% include hemline.html %}
+
+
+<!-- Statcounter code for Emfink.net ElonLaw
+https://www.emfink.net/ElonLaw/ -->
+<script type="text/javascript">
+var sc_project=11987940; 
+var sc_invisible=1; 
+var sc_security="0389e5e8"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/11987940/0/0389e5e8/1/"
+alt="Web Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+</body>
+
+</html>

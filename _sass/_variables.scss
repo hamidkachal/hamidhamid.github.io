@@ -1,0 +1,228 @@
+/******************************************************************************/
+
+// TYPOGRAPHY
+
+// Fonts 
+$serif-font: 'Cormorant Garamond','Garamond','Hoefler Text',serif !default;
+$sans-font: Lato,Helvetica, Verdana, sans-serif !default;
+$monospace-font: 'Cousine', 'Source Code Pro', Consolas, monospace !default;
+$body-font: $serif-font;
+$heading-font: 'Proza Libre',Lato,Helvetica, Verdana, sans-serif !default;
+$code-font: $monospace-font;
+
+// Font Sizes 
+$base-size: 16px !default;
+$small-size:  .8rem !default;
+$smaller-size:  .64rem !default;
+$smallest-size:  .512rem !default;
+$tiny-size: .41rem !default; 
+$medium-size:  1rem !default;
+$large-size:  1.125rem !default;
+$larger-size:  1.25rem !default;
+$largest-size:  1.4rem !default;
+$huge-size: 3.053rem !default;
+$huger-size: 3.815rem !default;
+$hugest-size: 4.768rem !default;
+$title-size: 1.563rem !default;
+$subtitle-size: 1.25rem !default;
+$body-size: 1rem !default;
+$page-title: 2.5rem !default;
+$post-title: 2.5rem !default;
+$description-size: 1.6rem !default;
+$blockquote-size: .9rem !default;
+$h1: 2rem !default;
+$h2: 1.6rem !default;
+$h3: 1.3rem !default;
+$h4: 1rem !default;
+$h5: .8rem !default;
+$h6: .7rem !default;
+$h7: .6rem !default;
+$h8: .5rem !default;
+$h9: .4rem !default;
+$h00: 4rem !default;
+$h0: 3rem !default;
+$h00-responsive: 8vw !default;
+$h0-responsive: 6vw !default;
+$h1-responsive: 4vw !default;
+$h00-responsive-max: 7.68rem !default;
+$h0-responsive-max: 5.76rem !default;
+$h1-responsive-max: 3.84rem !default;
+$abbr-border-bottom: 1px black dotted !default;
+
+$social-icons-large: 1.5rem;
+$social-icons-medium: 1.25rem;
+$social-icons-small: 1rem;
+$contacticon-large: 90px;
+$contacticon-medium: 60px;
+$contacticon-small: 30px;
+
+// font weights
+// font weights
+$black-weight: 		900 !default;
+$heavy-weight: 		800 !default;
+$bold-weight: 		700 !default;
+$medium-weight: 	600 !default;
+$book-weight: 		500 !default;
+$normal-weight: 	400 !default;
+$light-weight: 		300 !default;
+$thin-weight: 		200 !default;
+
+$heading-weight: 	400 !default;
+
+// line heights
+$line-height: 1.5 !default;
+$heading-line-height: 1.3 !default;
+$blockquote-line-height: 1.3 !default;
+
+// COLORS
+
+// reds 
+$red:               #FF3636 !default;
+$red-1:             #f95020 !default;
+$dull-red:          #b03a2e !default;
+
+// oranges
+$orange:            #F29105 !default;
+$orange-1:          #ffcc22 !default;
+$deep-orange:       #973A05 !default;
+$dull-orange: 		#B16032 !default;
+
+// yellows 
+$yellow:            #efcc00 !default;
+
+// greens
+$green:             #00ab37 !default;
+$green-1:           #11D68B !default;
+$green-2:           #00cf26 !default;
+$dark-green:        #009f06 !default;
+$light-green:       #ddffdd !default;
+$lime_green:        #B7D12A !default;
+
+// blues
+$blue:              #2698BA !default;
+$blue-1:            #0076df !default;
+$dark-blue:         #00369f !default;
+$bright-blue:       #3498db !default;
+$bright-cyan:       #2EA4B0 !default;
+$bright-navy:       #2E55B0 !default;
+
+// pinks & purples
+$pink:              #f92080 !default;
+$light-pink:        #ffdddd !default;
+$purple:            #B509AC !default;
+
+
+// whites
+$white:             #ffffff !default;
+$off-white: 		#fffff8 !default;
+
+// greys
+$grey: 				#828282 !default;
+$dark-grey:         #17202a !default;
+$medium-grey:       #2c3e50 !default;
+$light-grey:        #d5d8dc !default;
+$lighter-grey:      #eeeeee !default;
+$grey-green:        #424949 !default;
+
+// blacks 
+$black: 			#000000 !default;
+$off-black: 		#231F20 !default;
+
+// shades
+$darken-1:          rgba(#000,.0625) !default;
+$darken-2:          rgba(#000,.125) !default;
+$darken-3:          rgba(#000,.25) !default;
+$darken-4:          rgba(#000,.5) !default;
+
+// Theme Colors 
+$theme-color:       $dull-red;
+$background-color:  $off-white;
+$text-color:        $off_black;
+$heading-color: 	$dull-red;
+$code-color:        $bright-cyan;
+$link-color:		$deep-orange;
+$link-hover-color:  $dull-orange;
+
+// Header
+$nav-height: 56px;
+
+// Footer
+$footer-border-top: 	thin solid $dark-grey;
+$footer-padding: 		.5rem;
+$footer-color: 			$light-grey;
+$footer-bg-color: 		$dark-grey;
+$footer-font-weight: 	400;
+$footer-font-size: 		.75rem;
+
+$horizontal-spacing-unit:       50px;
+$vertical-spacing-unit:         40px;
+
+// Page width
+$measure-width: 42rem !default;
+
+// Viewport widths
+$viewport-small: 600px;
+$viewport-medium: 768px;
+$viewport-large: 1000px;
+
+// Breakpoints
+$breakpoint-md: '(min-width: 52em)';
+$breakpoint-xl: '(min-width: 96em)';
+
+// Buttons
+$button-font-size: inherit !default;
+$button-font-weight: normal !default;
+$button-line-height: 1.125rem !default;
+$button-padding-y: .5rem !default;
+$button-padding-x: 1rem !default;
+$button-font-family: $sans-font;
+
+// Forms
+$form-field-font-size: 1rem !default;
+$form-field-height: 2.25rem !default;
+$form-field-padding-y: .5rem !default;
+$form-field-padding-x: .5rem !default;
+
+// Borders
+$border-color: $light-grey !default;
+$border-width: 1px !default;
+$border-radius: 3px !default;
+
+// Forms
+$form-field-font-size: 1rem;
+$form-field-height: 2.25rem;
+$form-field-padding-y: .5rem;
+$form-field-padding-x: .5rem;
+
+// Code
+$pre-border-radius: 0;
+$pre-background-color: #fafafa;
+$hljs-comment: $medium-grey;
+$hljs-keyword: $dark-blue;
+$hljs-name: $dark-grey;
+$hljs-number: $dark-green;
+$hljs-string: $red;
+$hljs-title: $red;
+$hljs-type: $dark-blue;
+$hljs-tag: $dark-blue;
+$hljs-attribute: $dark-green;
+$hljs-regexp: $dark-green;
+$hljs-symbol: $purple;
+$hljs-built-in: $dark-blue;
+$hljs-preprocessor: $medium-grey;
+$hljs-deletion: $light-pink;
+$hljs-addition: $light-green;
+$hljs-change: $dark-blue;
+$hljs-chunk: $light-grey;
+
+/******************************************************************************/
+
+
+/* portfolio tinkering */
+$img_spacing: 5px;
+$img-height: 275px;
+$caption-font-size: 12px;
+$caption-color: #aaa;
+
+/* add on-palm to be consistent with other jekyll theme media queries */
+$on-palm:  600px !default;

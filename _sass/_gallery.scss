@@ -1,0 +1,58 @@
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-size;
+}
+
+
+.blankbox {
+    background: $theme-color;
+}
+.img_row {
+    /*height: $img-height;*/
+    width: 100%;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+.col {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing:border-box;
+    /*padding: $img-spacing;*/
+}
+.one {
+    width:33.33%;
+}
+.two {
+    width: 66.66%;
+}
+.three {
+    width: 100%;
+}
+.caption {
+    height: 100%;
+    color: $caption-color;
+    text-align: center;
+    vertical-align: middle;
+    font-size: .8rem;
+}
+
+.caption-404 {
+    height: 100%;
+    color: $theme-color;
+    text-align: center;
+    vertical-align: middle;
+	font-family: serif-font;
+    font-size: 1.6rem;
+	font-style: italic;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

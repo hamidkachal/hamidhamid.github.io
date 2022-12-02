@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+	<div class="post">
+
+		<header class="case-header">
+			<h1 class="case-header">{{ page.title }}</h1>
+
+			<h3 class="case-header">{{ page.cite }} ({% if page.court %}{{ page.court }} {% endif %}{{ page.published }})</h3>
+		</header>
+
+		<article class="post-content {{page.title}} clearfix">
+		<div class="case">
+			{{ content }}
+		</div>
+		</article>
+
+		<div class="case-footer">
+			<p class="case-footer">Most internal citations and footnotes have been omitted. Other omissions are indicated by [ * * * ].</p>
+		</div>
+	
+	</div>
+</div>

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="wrapper">
+	<div class="post">
+
+		<header class="page-title">
+			{{ page.title }}
+		</header>
+
+		<article class="post-content {{page.title}} clearfix">
+
+			<!-- Schedule -->
+			<div class="syllabus">
+
+				{{ content }}
+
+				<div class="download-link">
+				<!-- Syllabus Download Link -->
+				<a href={{ site.baseurl }}/_pages/syllabus.pdf>Download Syllabus</a>
+				</div>
+
+			</div> <!-- /Schedule -->
+
+		</article>
+
+	</div>
+</div>
